@@ -1,3 +1,13 @@
 body {
-    background-color: blue;
+    background-color: rgb(202, 202, 211);
 }
+.modal-content{/* modal content used to control the content in the form */
+  
+    margin-left: auto;
+    margin-top: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 15% from the top, 15% from the bottom and centered */
+    width: 50%;
+    box-shadow: var(--light-shadow);
+  }

@@ -1,13 +1,35 @@
-body {
-    background-color: rgb(202, 202, 211);
+html, body {
+   display: block;
+   position: absolute;
+   background-color: rgb(229, 229, 235);
 }
-.modal-content{/* modal content used to control the content in the form */
-  
-    margin-left: auto;
-    margin-top: 40%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* 15% from the top, 15% from the bottom and centered */
-    width: 50%;
-    box-shadow: var(--light-shadow);
-  }
+.modal-content{
+    background-color: lavender;
+    position: relative;
+    border: 1px solid;
+    margin-top: 77px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 100px;
+    margin-left: 300px;
+    align-content: center;
+    width: 70%;
+}
+input[type=text], input[type=password]{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #ada8a8;
+    }
+.Signup{
+    margin-top: 10px;
+}
+.Signup:hover{
+    color: blue;
+}
+p{
+    margin-top: 50px;
+    font-display: left;
+}
